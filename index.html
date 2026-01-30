@@ -1,145 +1,199 @@
-<!DOCTYPE html> 
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title> Responsive Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
-<body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giri Subhash Sarella | Software Developer Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h3>Giri Subhash Sarella</h3>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
 
-  <!-- Move to up bottom -->
-  <div class="scroll-button">
-    <a href="#home"><i class="fas fa-arrow-up"></i></a>
-  </div>
-  
-  <!-- navigation menu -->
-  <nav>
-    <div class="navbar">
-      <div class="logo"><a href="#">Giri's Portfolio.</a></div>
-      <ul class="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#Certifications">Certifications</a></li>
-        <li><a href="#Internships">Internships</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <div class="cancel-btn">
-          <i class="fas fa-times"></i>
+      <section class="hero reveal">
+        <div>
+          <h1>Hi, I'm <span>Giri Subhash Sarella</span></h1>
+          <p>
+            <p class="muted">
+<p class="muted">
+I am a passionate Software Developer with hands-on experience in building real-time applications during my paid internship, working with ASP.NET Core, C#, REST APIs and SQL Server. I also have practical exposure to frontend technologies, Blazor and full-stack development through multiple real-world projects. I am highly curious to learn new technologies, enjoy solving real business problems, and continuously work on improving my skills by building and exploring modern software solutions.
+</p>
+</p>
+
+          </p>
+          <a class="btn" href="mailto:sarellagirisubhash@example.com">Contact Me</a>
         </div>
-      </ul>
-      <div class="media-icons">
-        <a href="https://www.facebook.com/venkatalakshmi.nelli.1?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a></a>
-        <a href="https://www.linkedin.com/in/giri-subhash-sarella-96b106286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"target="_blank"><i class="fab fa-linkedin"></i></a></a>
-        <a href="https://twitter.com/giri_sarella?t=1Hr_yqIzVnUNHqEMlkLATg&s=09" target="_blank"><i class="fab fa-twitter"></i></a></a>
 
-      </div>
-    </div>
-    <div class="menu-btn">
-      <i class="fas fa-bars"></i>
-    </div>
-  </nav>
-
-  <!-- Home Section Start -->
-  <section class="home" id="home">
-    <div class="home-content">
-      <div class="text">
-        <div class="text-one">Hello,</div>
-        <div class="text-two">I'm SARELLA GIRI SUBHASH</div>
-        <div class="text-three">Future Software Engineer</div>
-      </div>
-      
-    </div>
-  </section>
-
-  <!-- About Section Start -->
-  <section class="about" id="about">
-    <div class="content">
-      <div class="title"><span>About Me</span></div>
-      <div class="about-details">
-        <div class="right">
-          <div class="topic">DEVELOPMENT Is My Passion</div>
-          <P>Hi there! I'm SARELLA GIRI SUBHASH, a passionate and ambitious student.I did my B.Tech in CSE stream from BVC Engineering College, Odalarevu. I have a keen interest in Computer Science & Engineering and am dedicated to expanding my knowledge and skills in Web Development.</P>        
-            
+        <div class="card">
+          <h3>Quick Profile</h3>
+          <ul class="quick">
+            <li>Fresher / Junior Software Developer</li>
+            <li>Strong in OOP, DBMS and Clean Architecture</li>
+            <li>Interested in Backend & Full‑Stack Development</li>
+          </ul>
         </div>
-        <div class="left">
-          <img decoding="async" src="subhash.jpeg" width="100%" alt="Portfolio">
+      </section>
+
+      <section id="about" class="reveal">
+        <h2>About Me</h2>
+        <p class="muted">
+          I am a motivated software developer with hands-on internship experience at Sails Software Inc, CODSOFT and IIDT, where I worked on real-time and real-world projects ranging from web applications to enterprise-level systems. I have experience building applications using ASP.NET Core, C#, REST APIs, SQL Server and modern web technologies, and I am highly curious to learn new tools and technologies while building scalable and clean software solutions.
+
+        </p>
+      </section>
+
+      <section id="skills" class="reveal">
+        <h2>Skills</h2>
+        <div class="grid">
+          <div class="skill">Java</div>
+          <div class="skill">C#</div>
+          <div class="skill">Python</div>
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">ASP.NET Core</div>
+          <div class="skill">REST APIs</div>
+          <div class="skill">SQL Server</div>
+          <div class="skill">MySQL</div>
+          <div class="skill">PostgreSQL</div>
+          <div class="skill">Git & GitHub</div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <!-- My Skill Section Start -->
-  <section class="skills" id="skills">
-    <div class="content">
-      <div class="title"><span>My Skills</span></div>
-      <div class="skills-details">
-        <div class="text">
-          <div class="topic">Skills Reflects Our Knowledge</div>
-          <div class="topic">LANGUAGES : PYTHON,JAVA</div>
-          <div class="topic">DATABASE : MYSQL</div>
-          <div class="topic">FRAMEWORKS : DJANGO</div>
-          <div class="topic">WEB DEVELOPMENT : HTML,CSS,JAVASCRIPT</div>
-          <div class="topic">SOFT SKILLS : TEAM ORIENTED,DECISION-MAKING</div>
+      <section id="projects" class="reveal">
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="card project">
+            <h3>Student Management System</h3>
+            <p class="muted">
+              Web application to manage students, courses, attendance and
+              reports using ASP.NET Core and SQL Server.
+            </p>
+          </div>
 
-  </section>
-  <!--my certificate section Start-->
-  <section class="Certifications" id="Certifications">
-    <div class="title"><span>My Certifications</span></div>
-    <div class="topic">1.NPTEL- PROBLEM SOLVING THROUGH PROGRAMMING IN C (69%)</div>
-    <a href="https://drive.google.com/file/d/1FcRO1jzTq-8Tg_mSDsOb22HbllnPFAdo/view?usp=drivesdk" target="blank"class="certlink">Certificate</a>
-    <div class="topic">2.NPTEL-PROGRAMMING IN JAVA (71%)</div>
-    <a href="https://drive.google.com/file/d/1FoDsQeY8odlgl17kuobSfU311Uc7pbNb/view?usp=drivesdk"target="blank"class="certlink">Certificate</a>
-    <div class="topic">3.ORACLE - JAVA FUNDAMENTALS</div>
-    <a href="https://drive.google.com/file/d/1wnVNqg-owbiaXCqyBSgNAIe1U2UY5x25/view?usp=drivesdk"target="blank"class="certlink">Certificatae</a>
-    <div class="topic">4.APSSDC - ANDROID APP DEVELOPMENT</div>
-    <a href="https://drive.google.com/file/d/1GSph1hYQL7LIIqhFX8PF_hfjykEbfmQE/view?usp=drivesdk"target="blank"class="certlink">Certificatae</a>
-    </section>
+          <div class="card project">
+            <h3>CRM System</h3>
+            <p class="muted">
+              Customer relationship management system with role‑based access,
+              lead tracking and activity history.
+            </p>
+          </div>
 
-<!--Intenships-->
-<section class="Internships" id="Internships">
-    <div class="content">
-        <div class="title"><span>My Internships</span></div>
-    <div class="topic"><b><u>VIRTUAL INTERNSHIP - WEB TECHNOLOGIES AND SQL</u></b>
-        <div class="topic" >EDUTECH– 22ND JUNE – 22ND AUGUST </div>
-        <div class="topic">->Gain practical experience in web development and Web Technologies.</div> 
-        <div class="topic">->Master SQL and database management skills.</div>
-        <div class="topic">->Understand the integration of web technologies and databases.</div>
-        <div class="topic">->Apply best practices in web security and data integrity.</div>
-        <a href="https://drive.google.com/file/d/1HSlCLGycOpw-wgda0bexP0fl1Z4yN234/view?usp=drivesdk"target="blank">Certificate</a>
-  </section>
-
-  
-
-  <!-- Contact Me Section Start -->
-  <section class="contact" id="contact">
-    <div class="content">
-      <div class="title"><span>Contact Me</span></div>
-      <div class="text">
-      <div class="icons">
-        <a href="https://www.facebook.com/venkatalakshmi.nelli.1?mibextid=ZbWKwL" target="_blank"class="certlink"><i class="fab fa-facebook-f"></i></a></a>
-        <a href="https://www.linkedin.com/in/giri-subhash-sarella-96b106286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"target="_blank"class="certlink"><i class="fab fa-linkedin"></i></a></a>
-        <a href="https://twitter.com/giri_sarella?t=1Hr_yqIzVnUNHqEMlkLATg&s=09" target="_blank"class="certlink"><i class="fab fa-twitter"></i></a></a>
+          <div class="card project">
+  <h3>Smart Health Consulting Online System</h3>
+  <p class="muted">
+    Developed an online healthcare consulting and disease prediction system using
+    data analytics to predict liver, kidney and heart diseases.
+  </p>
 </div>
-        <div class="button">
-          <a href="mailto: sarellagirisubhash@gmail.com"><button>Mail me</button>
-          </a>
-      </div>
+
+        </div>
+      </section>
+
+      <section id="experience" class="reveal">
+        <h2>Professional Experience</h2>
+
+        <div class="timeline">
+          <div class="card">
+            <h3>
+              Trainee Software Engineer (Paid Internship) – Sails Software Inc,
+              Visakhapatnam
+            </h3>
+            <p class="muted">Aug 2025 – Dec 2025</p>
+            <ul class="list">
+              <li>
+                Designed and developed scalable .NET applications using ASP.NET
+                Core, C# and Entity Framework following Clean Architecture
+                principles.
+              </li>
+              <li>
+                Implemented secure RESTful APIs with authentication and
+                role-based authorization.
+              </li>
+              <li>
+                Integrated SQL Server and optimized queries to improve
+                application performance and response time.
+              </li>
+              <li>
+                Collaborated with cross-functional teams to test, debug and
+                deploy features using Git and Agile methodology.
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Web Technologies & SQL Intern – HQL EduTech (Remote)</h3>
+            <p class="muted">Jun 2023 – Aug 2023</p>
+            <ul class="list">
+              <li>
+                Worked on frontend development using HTML, CSS and JavaScript.
+              </li>
+              <li>
+                Gained hands-on experience in SQL and database operations.
+              </li>
+              <li>
+                Built basic UI components and practiced data-driven application
+                concepts.
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Full Stack Development Intern – IIDT & APSCHE</h3>
+            <p class="muted">Jun 2024 – Jul 2024</p>
+            <ul class="list">
+              <li>
+                Worked on real-world projects using Python, Django and
+                JavaScript.
+              </li>
+              <li>
+                Improved understanding of full-stack development and modern web
+                frameworks.
+              </li>
+              <li>
+                Enhanced problem-solving skills through practical project
+                implementation.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="reveal">
+        <h2>Contact</h2>
+        <p class="muted">
+          Feel free to connect with me for internships, fresher roles or project
+          collaborations.
+        </p>
+
+        <p>
+          Email :
+          <a class="accent" href="mailto:your-email@example.com"
+            >sarellagirisubhash@example.com</a
+          >
+        </p>
+        <p>GitHub : <a class="accent" href="https://github.com/GiriSarella" target="_blank">GiriSarella</a></p>
+<p>LinkedIn : <a class="accent" href="https://www.linkedin.com/in/giri-subhash-sarella-96b106286/" target="_blank">giri-subhash-sarella</a></p>
+ </section>
     </div>
-  </section>
 
+    <footer>
+      © <span id="year"></span> Giri Sarella. All rights reserved.
+    </footer>
 
-  <!-- Footer Section Start -->
-  <footer>
-    <div class="text">
-      <span>Created By <a href="#">sarella giri subhash</a> | © 2025 All Rights Reserved.</span>
-    </div>
-  </footer>
-
-   
-
-  <script src="script.js"></script>
-</body>
-</html
+    <script src="script.js"></script>
+  </body>
+</html>
